@@ -14,6 +14,8 @@
 		BDE464952C5928C70057C334 /* test_gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE464942C5928C70057C334 /* test_gitTests.swift */; };
 		BDE4649F2C5928C70057C334 /* test_gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4649E2C5928C70057C334 /* test_gitUITests.swift */; };
 		BDE464A12C5928C70057C334 /* test_gitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE464A02C5928C70057C334 /* test_gitUITestsLaunchTests.swift */; };
+		BDE464AE2C5929490057C334 /* q2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE464AD2C5929490057C334 /* q2.swift */; };
+		BDE464B02C5929630057C334 /* q3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE464AF2C5929630057C334 /* q3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BDE4649A2C5928C70057C334 /* test_gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE4649E2C5928C70057C334 /* test_gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gitUITests.swift; sourceTree = "<group>"; };
 		BDE464A02C5928C70057C334 /* test_gitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_gitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE464AD2C5929490057C334 /* q2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = q2.swift; sourceTree = "<group>"; };
+		BDE464AF2C5929630057C334 /* q3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = q3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BDE464832C5928C50057C334 /* test_gitApp.swift */,
 				BDE464852C5928C50057C334 /* ContentView.swift */,
+				BDE464AD2C5929490057C334 /* q2.swift */,
+				BDE464AF2C5929630057C334 /* q3.swift */,
 				BDE464872C5928C70057C334 /* Assets.xcassets */,
 				BDE464892C5928C70057C334 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE464862C5928C50057C334 /* ContentView.swift in Sources */,
+				BDE464AE2C5929490057C334 /* q2.swift in Sources */,
 				BDE464842C5928C50057C334 /* test_gitApp.swift in Sources */,
+				BDE464B02C5929630057C334 /* q3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

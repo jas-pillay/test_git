@@ -8,17 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var response = ""
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack{
+            VStack{
+                Text("What's the best icecream flavor?")
+                    .font(.largeTitle)
+                
+                Button("Mint Chocolate Chip") {
+                   response = "Yes! You are correct!!!🍵"
+                }
+                
+                Button("Chocolate") {
+                    response = "You are wrong! Try again🍫"
+                }
+                
+                Button("Strawberry") {
+                    response = "You are wrong! Try again🍓"
+                }
+                Text(response)
+                
+                NavigationLink(destination: q2()) {
+                    Text("Next Question 🥳")
+                        .foregroundColor(Color.purple)
+                        .padding()
+                }
+            }
+            
         }
-        .padding()
     }
+    
 }
+    #Preview {
+        ContentView()
+    }
 
-#Preview {
-    ContentView()
-}
